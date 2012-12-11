@@ -17,10 +17,7 @@ import java.util.Map;
  */
 public final class TopologySubmitter {
 
-    private TopologySubmitter() {
-    }
-
-    ;
+    private TopologySubmitter() {}
 
     private static void validateArgs(final String[] args) {
         if (args[0] == null) {
